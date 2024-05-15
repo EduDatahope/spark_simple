@@ -1,0 +1,11 @@
+{
+    "EC03OperationResponse":
+    {
+       "CICSDATETIME": "18/03/2014 13:13:35",
+       "OUTPUTMESSAGE": "Input data was: testing data",
+       "INPUTDATALENGTH":
+       {
+           "inputlength": 12
+       }
+    }
+ } 

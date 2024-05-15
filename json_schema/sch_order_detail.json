@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "ordertime": {
+      "type": "number"
+    },
+    "orderid": {
+      "type": "number",
+      "minimum": 0
+    },
+    "itemid" : {
+      "type":"string"
+    },
+    "orderunits" : {
+      "type":"number"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "zipcode": {
+          "type": "number"
+        }
+      }
+    }
+   }
+}

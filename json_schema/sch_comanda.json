@@ -1,0 +1,43 @@
+{
+    "$id": "https://example.com/complex-object.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Complex Object",
+    "type": "object",
+    "properties": {
+      "store": {
+        "type": "string"
+      },
+      "number_store": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "id_ticket" : {
+        "type":"string"
+      },
+      "products": {
+        "type": "object",
+        "properties": {
+          "street": {
+            "main_product": "string"
+          },
+          "complement": {
+            "type": "string"
+          },
+          "drinks": {
+            "type": "string"
+          },
+          "dessert": {
+            "type": "string"
+          }
+        },
+        "required": ["main_product"]
+      },
+      "comments": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["store", "number_store","id_ticket","products"]
+  } 

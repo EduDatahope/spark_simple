@@ -1,0 +1,12 @@
+{
+    "store": "miraflores",
+    "number_store": 25,
+    "id_ticket" : "rfx-456d4",
+    "products": {
+      "main_product": "hamburguer",
+      "complement": "papas fritas",
+      "drinks": "water",
+      "dessert": "pie"
+    },
+    "comments": ["sin sal las papas", "extra hielo"]
+  }
